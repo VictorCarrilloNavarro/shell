@@ -254,3 +254,109 @@ ll folder1
 ll folder2
 cd git
 cp ~/.history history_20201117.txt
+git status
+git add history_20201117.txt
+git commit -m "added my first history file"
+pwd
+git push origin master
+clear
+git status
+history -i
+history -n 10
+clear
+cd ..
+pwd
+ls
+clear
+ls -l
+cd Data
+clear
+ll
+cd shell/
+ll
+wc Text_example.txt
+head -n 8 Text_example.txt
+wc -w Text_example.txt
+clear
+echo -n "hola2" | wc
+cat Text_example.txt | wc
+cat Text_example.txt
+cat Text_example.txt | wc -l
+wc Text_example.txt
+tail -c -1k optd_aircraft.csv | wc
+ls
+cd ..
+cd opentraveldata
+ls -S
+ls -s
+ls -rs
+ls -lrs
+ls -ls
+ls -lrs
+ls -r
+ls -rls
+ls -rs
+ls -s
+clear
+ls -lrt
+ls -lr
+ls -lrt | head -n 1
+ls -lrt | tail -n 1
+ls -sS
+ls -sSlr
+ls -sSl
+ls -sSl | head -n 1
+ls -sSl | tail -n 1
+ls -sSlr | tail -n 1
+ls -sSlr | tail -n 1 | wc
+ls -sSlr | tail -n 1
+ls -sSlr | tail -n 1 > largest_file.txt
+cat largest_file.txt
+cd
+cd Data/shell
+head -n 5 Finn.txt
+head -n 5 Finn.txt | wc -w
+ls
+cat Text_example.txt
+head -n 3 Text_example.txt 
+head -n 3 Text_example.txt | wc -l
+head -n 3 Text_example.txt | cat 
+head -n 3 Text_example.txt | cat -n
+clear
+ls
+cp -r Text_example.txt Text_example2
+ls
+cat Text_example2
+head -n 3 Text_example.txt | cat 
+head -n 3 Text_example.txt | cat -n
+head -n 3 Text_example.txt | cat -n > Text_example2.txt
+cat Text_example2.txt
+head -n Text_example.txt | cat -n > Text_example2.txt
+head -n 3 Text_example.txt | cat -n > Text_example2.txt
+cat Text_example2.txt
+cat Text_example.txt
+cat -n
+cat -n Text_example.txt > Text_example2.txt
+cat Text_example2.txt
+cat Text_example.txt
+cat Text_example.txt >> Text_example3.txt
+cat Text_example3.txt
+cat Text_example.txt >> Text_example3.txt >> Text_example3.txt
+cat Text_example.txt >> Text_example3.txt
+cat Text_example3.txt
+echo date
+echo $date
+echo $(date)
+echo "#This file is created by Kschool on $(date)"
+echo "#This file is created by Kschool on $(date)" > Text_example4.txt
+cat Text_example4.txt
+echo "#This file is created by $(user) on $(date)" > Text_example4.txt
+echo "#This file is created by $USER on $(date)" > Text_example4.txt
+cat Text_example4.txt
+cd ..
+cd
+cd git
+pwd
+ls -lrt
+cat ~/.history|grep cp
+cp $HISTFILE ~/git/history_20201117.txt
