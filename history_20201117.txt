@@ -1,0 +1,256 @@
+sudo su
+echo $SHELL
+echo `date`
+echo `echo date`
+echo `echo $date`
+echo `echo $(date)`
+echo $(date)
+echo "World\
+is nice\
+"
+echo 'This is\
+"\
+'
+echo "world\
+\
+"
+echo "hell\
+\
+\
+
+echo "this dollar sign $echo"
+echo "this dollar sign \$echo"
+echo \
+echo "hola \\"
+cat /proc/cpuinfo
+cd
+ls
+cat /etc/os-release
+cd
+cd 
+ls
+cd Data/shell
+cd
+cd Data/shell
+cd -
+cd Data/shell
+cd ..
+cd shell
+cat Text_example.txt
+cat -n Text_example.txt
+cat -n7 Text_example.txt
+cd
+cat Data/shell/Text_example.txt
+cat books
+ls
+cat ./Data/shell/Text_example.txt
+cat ~/Data/shell/Text_example.txt
+cd Data
+cat ~/Data/shell/Text_example.txt
+cat ./Data/shell/Text_example.txt
+pwd
+cd
+pwd
+ls
+cd Data/challenge
+ls
+cd
+ls Documents
+ls anaconda3
+cd anaconda3
+ls -1
+ls -s
+ls -1s
+cd
+ls
+ls -a
+cd .
+ls -a
+ls -l
+ls -la
+cd
+ls Data
+ls -l Data/README.md
+ls -aS
+ls -aSl
+ls -aRl
+cd
+ls -l
+ls -al
+touch file00
+ls
+ls -l file00
+chmod u+x,g-w,o+w
+chmod u+x,g-w,o+w file00
+ls -l file00
+chmod 777 file00
+ls -l file00
+mkdir my_first_dir
+ls -l
+mkdir my_first_dir2 my_first_dir3
+ls -l
+mkdir my_second_dir/uno
+mkdir -p my_second_dir/uno
+ls -l
+rm file00
+rm my_first_dir
+touch fichero2
+cp fichero2 fichero3
+ls
+cp fichero2 fichero3 my_first_dir
+ls my_first_dir
+cp -r my_first_dir my_first_copy
+ls
+cd my_first_copy
+ls
+cd
+mv fichero2 fichero_moved
+ls
+mv my_first_copy my_moved_dir
+ls
+cd my_moved_dir
+ls
+cd
+ls
+cd ..
+mkdir first_dir
+cd
+mkdir first_dir
+ls
+ls first_dir
+cd first_dir
+touch text_file.txt
+ls
+ls -l
+chmod 676 text_file.txt
+ls -l
+mkdir sub1 and sub2 and sub3
+ls -l
+rm and
+rm -r and
+ls -l
+git config --global user.name "Victor Carrillo"
+git config --global user.email "victorcarrillonavarro@gmail.com"
+cat .gitconfig
+cd
+cat .gitconfig
+pwd
+mkdir git
+ls
+ls /lrt
+ls -lrt
+cd git
+echo "# shell"
+echo "# shell" >> README.md
+ls
+cat README.md
+git status
+git init
+git config --get user.name
+ls -lrt
+git add README.md
+ls -lrt
+git status
+touch kk.txt
+ls -lrt
+git status
+git commit -m "first commit adding README.md"
+git branch -M main
+git branch -M master
+git status
+git remote add origin https://github.com/VictorCarrilloNavarro/shell.git
+git push -u origin master
+gedit README.md
+git add README.md
+git status
+git commit -m "README edited"
+git push origin master
+cd ..
+pwd
+ll
+cd Data
+ll
+cd us_dot/
+cd otp
+cd..
+cd ..
+cd opentraveldata
+ll
+head optd_airlines.csv
+tail -n 1 optd_airlines.csv
+less optd_airlines.csv
+clear
+cd ..
+cd shell
+ll
+less Finn.txt
+cd ..
+cd  opentraveldata
+less optd_aircraft.csv
+echo $PATH
+cd ..
+cd
+gedit kk.sh
+bash kk.sh
+bash
+exit
+ll
+exit
+ll
+which bash
+which ll
+which python
+which ll
+gedit .zshrc
+echo "Hola Mundo"
+echo "Hola Mundo" > pp.txt
+head pp.txt
+echo "Hola Mundo" >>  pp.txt
+head pp.txt
+ls
+touch pp2.txt
+gedit pp3.txt
+echo $HISTFILE
+tail -n 5 /home/dsc/.history
+ls .history
+ls -s .history
+ls -l /home/dsc/.history
+ll $HISTFILE
+ls
+rsync -help
+mkdir folder1
+mkdir folder2
+touch folder1/one
+touch folder2/two
+rsync -avz folder1/one folder2/
+ls
+cd folder1
+ls
+cd
+cd folder2
+ls
+ll
+cd
+ll
+ls
+echo "first line" >> folder1/one
+head folder1/one
+head folder2/one
+rsync -avz folder1/one folder2/
+touch folder1/oneB
+rsync -avz folder1/one folder2/
+ll folder2/
+touch folder2/three
+ll folder2/
+ll folder1/
+rsync -avz folder1 folder2/
+ll folder1
+ll folder2
+rsync -avz folder1 folder2
+ll folder1
+ll folder2
+rsync -avz folder1/ folder2
+ll folder1
+ll folder2
+cd git
+cp ~/.history history_20201117.txt
