@@ -1,0 +1,601 @@
+sudo su
+echo $SHELL
+echo `date`
+echo `echo date`
+echo `echo $date`
+echo `echo $(date)`
+echo $(date)
+echo "World\
+is nice\
+"
+echo 'This is\
+"\
+'
+echo "world\
+\
+"
+echo "hell\
+\
+\
+
+echo "this dollar sign $echo"
+echo "this dollar sign \$echo"
+echo \
+echo "hola \\"
+cat /proc/cpuinfo
+cd
+ls
+cat /etc/os-release
+cd
+cd 
+ls
+cd Data/shell
+cd
+cd Data/shell
+cd -
+cd Data/shell
+cd ..
+cd shell
+cat Text_example.txt
+cat -n Text_example.txt
+cat -n7 Text_example.txt
+cd
+cat Data/shell/Text_example.txt
+cat books
+ls
+cat ./Data/shell/Text_example.txt
+cat ~/Data/shell/Text_example.txt
+cd Data
+cat ~/Data/shell/Text_example.txt
+cat ./Data/shell/Text_example.txt
+pwd
+cd
+pwd
+ls
+cd Data/challenge
+ls
+cd
+ls Documents
+ls anaconda3
+cd anaconda3
+ls -1
+ls -s
+ls -1s
+cd
+ls
+ls -a
+cd .
+ls -a
+ls -l
+ls -la
+cd
+ls Data
+ls -l Data/README.md
+ls -aS
+ls -aSl
+ls -aRl
+cd
+ls -l
+ls -al
+touch file00
+ls
+ls -l file00
+chmod u+x,g-w,o+w
+chmod u+x,g-w,o+w file00
+ls -l file00
+chmod 777 file00
+ls -l file00
+mkdir my_first_dir
+ls -l
+mkdir my_first_dir2 my_first_dir3
+ls -l
+mkdir my_second_dir/uno
+mkdir -p my_second_dir/uno
+ls -l
+rm file00
+rm my_first_dir
+touch fichero2
+cp fichero2 fichero3
+ls
+cp fichero2 fichero3 my_first_dir
+ls my_first_dir
+cp -r my_first_dir my_first_copy
+ls
+cd my_first_copy
+ls
+cd
+mv fichero2 fichero_moved
+ls
+mv my_first_copy my_moved_dir
+ls
+cd my_moved_dir
+ls
+cd
+ls
+cd ..
+mkdir first_dir
+cd
+mkdir first_dir
+ls
+ls first_dir
+cd first_dir
+touch text_file.txt
+ls
+ls -l
+chmod 676 text_file.txt
+ls -l
+mkdir sub1 and sub2 and sub3
+ls -l
+rm and
+rm -r and
+ls -l
+git config --global user.name "Victor Carrillo"
+git config --global user.email "victorcarrillonavarro@gmail.com"
+cat .gitconfig
+cd
+cat .gitconfig
+pwd
+mkdir git
+ls
+ls /lrt
+ls -lrt
+cd git
+echo "# shell"
+echo "# shell" >> README.md
+ls
+cat README.md
+git status
+git init
+git config --get user.name
+ls -lrt
+git add README.md
+ls -lrt
+git status
+touch kk.txt
+ls -lrt
+git status
+git commit -m "first commit adding README.md"
+git branch -M main
+git branch -M master
+git status
+git remote add origin https://github.com/VictorCarrilloNavarro/shell.git
+git push -u origin master
+gedit README.md
+git add README.md
+git status
+git commit -m "README edited"
+git push origin master
+cd ..
+pwd
+ll
+cd Data
+ll
+cd us_dot/
+cd otp
+cd..
+cd ..
+cd opentraveldata
+ll
+head optd_airlines.csv
+tail -n 1 optd_airlines.csv
+less optd_airlines.csv
+clear
+cd ..
+cd shell
+ll
+less Finn.txt
+cd ..
+cd  opentraveldata
+less optd_aircraft.csv
+echo $PATH
+cd ..
+cd
+gedit kk.sh
+bash kk.sh
+bash
+exit
+ll
+exit
+ll
+which bash
+which ll
+which python
+which ll
+gedit .zshrc
+echo "Hola Mundo"
+echo "Hola Mundo" > pp.txt
+head pp.txt
+echo "Hola Mundo" >>  pp.txt
+head pp.txt
+ls
+touch pp2.txt
+gedit pp3.txt
+echo $HISTFILE
+tail -n 5 /home/dsc/.history
+ls .history
+ls -s .history
+ls -l /home/dsc/.history
+ll $HISTFILE
+ls
+rsync -help
+mkdir folder1
+mkdir folder2
+touch folder1/one
+touch folder2/two
+rsync -avz folder1/one folder2/
+ls
+cd folder1
+ls
+cd
+cd folder2
+ls
+ll
+cd
+ll
+ls
+echo "first line" >> folder1/one
+head folder1/one
+head folder2/one
+rsync -avz folder1/one folder2/
+touch folder1/oneB
+rsync -avz folder1/one folder2/
+ll folder2/
+touch folder2/three
+ll folder2/
+ll folder1/
+rsync -avz folder1 folder2/
+ll folder1
+ll folder2
+rsync -avz folder1 folder2
+ll folder1
+ll folder2
+rsync -avz folder1/ folder2
+ll folder1
+ll folder2
+cd git
+cp ~/.history history_20201117.txt
+git status
+git add history_20201117.txt
+git commit -m "added my first history file"
+pwd
+git push origin master
+clear
+git status
+history -i
+history -n 10
+clear
+cd ..
+pwd
+ls
+clear
+ls -l
+cd Data
+clear
+ll
+cd shell/
+ll
+wc Text_example.txt
+head -n 8 Text_example.txt
+wc -w Text_example.txt
+clear
+echo -n "hola2" | wc
+cat Text_example.txt | wc
+cat Text_example.txt
+cat Text_example.txt | wc -l
+wc Text_example.txt
+tail -c -1k optd_aircraft.csv | wc
+ls
+cd ..
+cd opentraveldata
+ls -S
+ls -s
+ls -rs
+ls -lrs
+ls -ls
+ls -lrs
+ls -r
+ls -rls
+ls -rs
+ls -s
+clear
+ls -lrt
+ls -lr
+ls -lrt | head -n 1
+ls -lrt | tail -n 1
+ls -sS
+ls -sSlr
+ls -sSl
+ls -sSl | head -n 1
+ls -sSl | tail -n 1
+ls -sSlr | tail -n 1
+ls -sSlr | tail -n 1 | wc
+ls -sSlr | tail -n 1
+ls -sSlr | tail -n 1 > largest_file.txt
+cat largest_file.txt
+cd
+cd Data/shell
+head -n 5 Finn.txt
+head -n 5 Finn.txt | wc -w
+ls
+cat Text_example.txt
+head -n 3 Text_example.txt 
+head -n 3 Text_example.txt | wc -l
+head -n 3 Text_example.txt | cat 
+head -n 3 Text_example.txt | cat -n
+clear
+ls
+cp -r Text_example.txt Text_example2
+ls
+cat Text_example2
+head -n 3 Text_example.txt | cat 
+head -n 3 Text_example.txt | cat -n
+head -n 3 Text_example.txt | cat -n > Text_example2.txt
+cat Text_example2.txt
+head -n Text_example.txt | cat -n > Text_example2.txt
+head -n 3 Text_example.txt | cat -n > Text_example2.txt
+cat Text_example2.txt
+cat Text_example.txt
+cat -n
+cat -n Text_example.txt > Text_example2.txt
+cat Text_example2.txt
+cat Text_example.txt
+cat Text_example.txt >> Text_example3.txt
+cat Text_example3.txt
+cat Text_example.txt >> Text_example3.txt >> Text_example3.txt
+cat Text_example.txt >> Text_example3.txt
+cat Text_example3.txt
+echo date
+echo $date
+echo $(date)
+echo "#This file is created by Kschool on $(date)"
+echo "#This file is created by Kschool on $(date)" > Text_example4.txt
+cat Text_example4.txt
+echo "#This file is created by $(user) on $(date)" > Text_example4.txt
+echo "#This file is created by $USER on $(date)" > Text_example4.txt
+cat Text_example4.txt
+cd ..
+cd
+cd git
+pwd
+ls -lrt
+cat ~/.history|grep cp
+cp $HISTFILE ~/git/history_20201117.txt
+ls -lrt
+git add history_20201117.txt
+git commit -m "history of the day updated"
+git push origin master
+exit
+ls
+cd
+cd ..
+ls
+cd dsc
+clear
+ls
+touch prueba.sh
+ls
+gedit prueba.sh
+./prueba.sh
+chmod 777 prueba.sh
+./prueba.sh
+gedit prueba.sh
+./prueba.sh
+gedit prueba.sh
+clear
+gedit prueba.sh
+./prueba.sh
+gedit prueba.sh
+./prueba.sh
+gedit prueba.sh
+clear
+./prueba.sh
+gedit prueba.sh
+./prueba.sh
+gedit prueba.sh
+./prueba.sh
+gedit prueba.sh
+./prueba.sh
+ls
+find . -maxdepth 1 -type f | wc -1
+find . -maxdepth 1 -type f | wc -l
+gedit prueba.sh
+./prueba.sh
+find . -maxdepth 1 -type f | wc -l
+ls
+cd git
+./prueba.sh
+~/prueba.sh
+gedit prueba.sh
+ls
+cd ..
+gedit prueba.sh
+./prueba.sh
+cd git
+~/prueba.sh
+clear
+cd
+ls
+cd Data
+cd shell
+ls
+cat Text_example.txt
+tail -n 2 ~/.history
+tail -n 20 ~/.history
+tail -n 20 ~/.history > ejemplo20lineashistory.txt
+cat ejemplo20lineashistory.txt
+clear
+ls
+cat Text_example.txt
+head -n 3 Text_example.txt
+head -n/c -3 Text_example.txt
+head -c -3 Text_example.txt
+head -n/c 3 Text_example.txt
+tail -n 3 Text_example.txt
+tail -n +3 Text_example.txt
+tail -n +3 Text_example.txt | head -n 2
+clear
+cd
+ls
+cd Data/opentraveldata
+ls
+wc -l optd_aircraft.csv
+clear
+cd ..
+ls
+gedit prueba.sh
+find . -maxdepth 1 -mmin 60
+ls
+cd git
+find . -maxdepth 1 -mmin 60
+exit
+cd
+exit
+jobs -l
+exit
+echo 'echo "hola \nmundo"'
+echo 'echo "hola \nmundo"' > holamundo.sh
+./holamundo.sh
+chmod +x holamundo.sh
+bash holamundo.sh
+gedit holamundo.sh
+bash holamundo.sh
+gedit holamundo.sh
+bash holamundo.sh
+./holamundo.sh
+gedit holamundo.sh
+gedit holamundo.txt
+gedit holamundo.sh
+./holamundo.sh 3 5
+gedit holamundo.sh
+./holamundo.sh
+clear
+ls
+cd Data/opentraveldata
+ls
+ls -sSlr | tail -n 1 > largest_file.txt
+cat largest_file.txt
+touch 001.sh
+ls
+gedit 001.sh
+ls
+./001.sh
+gedit 001.sh
+./001.sh
+gedit 001.sh
+chmod 777 001.sh
+./001.sh
+gedit 001.sh
+ls
+cat 001.out
+gedit 001.sh
+git clone github.com/JoaquinLou/Los-Bashers.git
+git clone https://github.com/JoaquinLou/Los-Bashers.git
+cd
+ls
+cd git
+ls
+cd
+ls
+git init Los-Bashers
+ls
+cd Los-Bashers
+ls 
+ls
+cd
+cd Los-Bashers
+ls
+cd
+git pull Los-Bashers
+cd Data/opentraveldata
+ls
+cd Los-Bashers
+ls
+cp ~/Data/opentraveldata/001.sh /Los-Bashers
+cp ~/Data/opentraveldata/001.sh ~/Los-Bashers
+ls
+cp ~/Data/opentraveldata/001.sh ~/Dara/opentraveldata/Los-Bashers
+cp ~/Data/opentraveldata/001.sh ~/Data/opentraveldata/Los-Bashers
+ls
+./001.sh
+ls
+cat 001.out
+git add 001.sh 001.out
+git commit -m "Primer ejercicio"
+git push -u origin main
+clear
+ls
+touch 002.sh
+gedit 002.sh
+ls
+./002.sh
+chmod 777 002.sh
+./002.sh
+ls
+cat 002.sh
+cat 002.out
+touch 003.sh
+gedit 003.sh
+chmod 777 003.sh
+./003.sh
+cat 003.out
+ls
+touch 004.sh
+gedit 004.sh
+chmod 777 004.sh
+./004.sh
+gedit 004.sh
+./004.sh
+cat 004.out
+touch 005.sh
+gedit 005.sh
+chmod 777 005.sh
+./005.sh
+cat 005.out
+gedit 005.sh
+./005.sh
+cat 005.out
+echo "La fecha $(date)"
+gedit 005.sh
+./005.sh
+cat 005.out
+git add
+git add .
+git commit -m "Ejercicios 2,3,4 y 5"
+git push -u origin main
+git pull .
+git pull
+touch 006.sh
+gedit 006.sh
+chmod 777 006.sh
+./006.sh
+gedit 006.sh
+./006.sh
+gedit 006.sh
+./006.sh
+gedit 006.sh
+./006.sh
+gedit 006.sh
+./006.sh
+gedit 006.sh
+./006.sh
+gedit 006.sh
+./006.sh
+gedit 006.sh
+./006.sh
+gedit 006.sh
+./006.sh
+git add .
+git commit -m "Ejercicio 6"
+git push -u origin main
+git add .
+git commit -m "Ejercicio 6"
+git push -u origin main
+cd
+ls
+cp ~/.history history_20201118.txt
+ls
+head -n 5 history_20201118.txt
+git status
+cd git
+git status
+cp $HISTFILE ~/git/history_20201118.txt
